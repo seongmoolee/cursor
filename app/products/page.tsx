@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Products() {
   return (
@@ -47,9 +48,9 @@ export default function Products() {
               <span>클라우드 기반 솔루션</span>
             </li>
           </ul>
-          <a href="/contact" className="text-blue-500 hover:text-blue-600 font-medium">
+          <Link href="/contact" className="text-blue-500 hover:text-blue-600 font-medium">
             문의하기 →
-          </a>
+          </Link>
         </div>
 
         <div className="p-8 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -80,9 +81,9 @@ export default function Products() {
               <span>엔터프라이즈급 보안</span>
             </li>
           </ul>
-          <a href="/contact" className="text-blue-500 hover:text-blue-600 font-medium">
+          <Link href="/contact" className="text-blue-500 hover:text-blue-600 font-medium">
             문의하기 →
-          </a>
+          </Link>
         </div>
 
         <div className="p-8 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -113,9 +114,9 @@ export default function Products() {
               <span>교육 및 트레이닝</span>
             </li>
           </ul>
-          <a href="/contact" className="text-blue-500 hover:text-blue-600 font-medium">
+          <Link href="/contact" className="text-blue-500 hover:text-blue-600 font-medium">
             문의하기 →
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -127,16 +128,16 @@ export default function Products() {
               <div className="text-4xl mb-4">🏢</div>
               <h3 className="text-xl font-semibold mb-2">A 기업</h3>
               <p className="text-gray-600">
-                "제품 A 도입 후 생산성이 40% 향상되었습니다.
-                사용하기 쉽고 안정적인 시스템입니다."
+                &ldquo;제품 A 도입 후 생산성이 40% 향상되었습니다.
+                사용하기 쉽고 안정적인 시스템입니다.&rdquo;
               </p>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-md">
               <div className="text-4xl mb-4">🏭</div>
               <h3 className="text-xl font-semibold mb-2">B 기업</h3>
               <p className="text-gray-600">
-                "맞춤형 서비스 덕분에 비즈니스 프로세스가
-                효율적으로 개선되었습니다."
+                &ldquo;맞춤형 서비스 덕분에 비즈니스 프로세스가
+                효율적으로 개선되었습니다.&rdquo;
               </p>
             </div>
           </div>
