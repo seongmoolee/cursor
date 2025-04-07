@@ -13,7 +13,7 @@ export default function Home() {
           priority
         />
         <div className="relative z-20 text-white max-w-3xl mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-6">기업</h1>
+          <h1 className="text-5xl font-bold mb-6">홈페이지</h1>
           <p className="text-xl mb-8">최고의 품질과 혁신적인 솔루션으로 고객의 성공을 함께합니다</p>
           <a href="/contact" className="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-blue-600 transition-colors">
             문의하기
